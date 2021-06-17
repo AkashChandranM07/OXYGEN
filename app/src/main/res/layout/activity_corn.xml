@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="372dp"
+        android:layout_height="545dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:lineSpacingExtra="15dp"
+        android:maxLines="25"
+        android:scrollbars="vertical"
+        android:text="@string/corn"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cornlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="@string/link4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/Red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="@font/trade_winds"
+        android:text="Maize"
+        android:textColor="@color/agdarkgreen"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="145dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

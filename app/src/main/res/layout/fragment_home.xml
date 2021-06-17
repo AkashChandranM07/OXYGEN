@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/lightsteelblue"
+    >
+
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        tools:ignore="MissingConstraints">
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?actionBarSize"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:padding="10dp"
+            android:text="SITE-SPECIFIC CROP MANAGEMENT"
+            android:textAllCaps="true"
+            android:textColor="@color/Black"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/envrbgm"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="10dp"
+            >
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="ENVIRONMENT"
+                android:textColor="@color/palegoldenrod"
+                android:textSize="24dp"
+                android:fontFamily="@font/trade_winds"/>
+
+            <Button
+                android:id="@+id/offline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/transparent"
+                android:padding="20dp"
+                android:text="Know about LOCATION "
+                android:textSize="15dp"
+                android:textColor="@color/palegoldenrod"
+                android:fontFamily="@font/allerta"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/envrlogo"
+                android:layout_alignParentRight="true"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/yellowgru">
+
+            <TextView
+                android:layout_width="196dp"
+                android:layout_height="79dp"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:text="AGRI-FEED"
+                android:textColor="@color/agdarkgreen"
+                android:textSize="27dp"
+                android:fontFamily="@font/trade_winds"/>
+
+            <Button
+                android:id="@+id/online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="-1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/transparent"
+                android:padding="20dp"
+                android:text="OPEN CROP FEED"
+                android:textColor="@color/agdarkgreen"
+                android:textSize="14dp"
+                app:backgroundTint="#E64A19"
+                android:fontFamily="@font/allerta"/>
+
+            <ImageView
+                android:layout_width="144dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginLeft="-5dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/cropfeedoxy" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/explorebgm"
+            >
+
+            <TextView
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/trade_winds"
+                android:padding="10dp"
+                android:text="EXPLORE"
+                android:textColor="@color/palegoldenrod"
+                android:textSize="27dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginLeft="-12dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/nativebg" />
+
+            <Button
+                android:id="@+id/adkit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="-1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/transparent"
+                android:padding="20dp"
+                android:text="SHOP NOW"
+                android:textColor="@color/palegoldenrod"
+                android:textSize="14dp"
+                app:backgroundTint="#E64A19"
+                android:fontFamily="@font/allerta"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/cropslogo"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="CROPS"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:fontFamily="@font/trade_winds"/>
+
+            <Button
+                android:id="@+id/cropplan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/transparent"
+                android:padding="20dp"
+                android:text="Know about Crops"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:backgroundTint="#FA0606"
+                tools:ignore="DuplicateIds"
+                android:fontFamily="@font/allerta"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/cropsoxy"
+
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="163dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:padding="10dp"
+            android:text="OXYGEN DEVS. © "
+            android:textAllCaps="true"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

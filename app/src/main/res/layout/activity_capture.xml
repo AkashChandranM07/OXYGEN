@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".CaptureActivity"
+    android:background="@color/White"
+    android:padding="24dp">
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/button_location"-->
+<!--        android:layout_width="243dp"-->
+<!--        android:layout_height="47dp"-->
+<!--        android:layout_marginTop="9dp"-->
+<!--        android:layout_marginBottom="144dp"-->
+<!--        android:backgroundTint="@color/White"-->
+<!--        android:text="Get Address"-->
+<!--        android:textColor="@color/igblue"-->
+<!--        app:cornerRadius="50px"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.434"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text_location"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="399dp"
+        android:layout_height="121dp"
+        android:text="Know your address in just a tap"
+        android:fontFamily="@font/allerta"
+        android:textSize="19dp"
+        android:textColor="@color/Black"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/button_location"
+        android:layout_width="312dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="300dp"
+        android:text="GET ADDRESS"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#00FF7F"
+        app:sub_btn_ripple_color="#00FF7F"
+        app:sub_btn_tick_color="@color/Black" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/getaddress" />
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="297dp"
+        android:layout_height="131dp"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toTopOf="@+id/button_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <!--    <include-->
+<!--        android:id="@+id/getaddress"-->
+<!--        layout="@layout/progress_btn_layout"-->
+<!--        android:layout_width="416dp"-->
+<!--        android:layout_height="82dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+
+    <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/root_scrollView"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:paddingLeft="@dimen/activity_title_margin"-->
+    <!--    android:paddingTop="@dimen/activity_title_margin"-->
+    <!--    android:paddingRight="@dimen/activity_title_margin"-->
+    <!--    tools:context="CaptureActivity"-->
+    <!--    android:background="@drawable/envbgoxy">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="64dp"-->
+    <!--            android:fontFamily="@font/trade_winds"-->
+    <!--            android:text="@string/awareness_capture_sample"-->
+    <!--            android:textColor="@color/agdarkgreen"-->
+    <!--            android:textSize="30dp" />-->
+
+    <!--        <com.ac07.oxygen.LogView-->
+    <!--            android:id="@+id/logView"-->
+    <!--            android:layout_width="380dp"-->
+    <!--            android:layout_height="349dp"-->
+    <!--            android:textColor="@color/yellow"-->
+    <!--            android:background="@color/black"/>-->
+
+
+    <!--        <Button-->
+    <!--            android:id="@+id/capture_getLocation"-->
+    <!--            android:layout_width="300dp"-->
+    <!--            android:layout_height="63dp"-->
+    <!--            android:layout_marginStart="40dp"-->
+    <!--            android:backgroundTint="@color/aglightblue"-->
+    <!--            android:fontFamily="@font/happy_monkey"-->
+    <!--            android:text="@string/awareness_getLocation"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            app:cornerRadius="53dp" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/clear_log"-->
+    <!--            android:layout_width="300dp"-->
+    <!--            android:layout_height="62dp"-->
+    <!--            android:layout_marginStart="40dp"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:backgroundTint="@color/Crimson"-->
+    <!--            android:fontFamily="@font/happy_monkey"-->
+    <!--            android:text="@string/clear_log"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            app:cornerRadius="50dp" />-->
+
+    <!--    </LinearLayout>-->
+
+
+
+    <!--</ScrollView>-->

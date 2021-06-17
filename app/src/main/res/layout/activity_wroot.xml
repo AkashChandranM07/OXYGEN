@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wroot"
+    android:background="@drawable/envbgoxy">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="332dp"
+        android:layout_height="58dp"
+        android:text="EYE SPOT"
+        android:fontFamily="@font/allerta"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="192dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/eyespt"
+        />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="341dp"
+        android:layout_height="337dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="31dp"
+        android:lineSpacingExtra="10dp"
+        android:text="How it affects?
+It is a fungal disease, survives in soil and
+crop residues. Waterlogging, cold, wet
+conditions are favourable to this disease.
+Affects the seedlings severely.
+How to identify?
+Plants become chlorotic and stunted.
+Reduces tillers in the plant.
+Affected plants occur in patches where
+the soil is wetter.
+Root tips: water soaked and develop a
+soft yellow to brown rot."
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="145dp"
+        android:layout_height="118dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginEnd="36dp"
+        android:src="@drawable/ic_menu_camera"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="156dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:text="CLICK ON CAMERA ICON COMPARE THE AFFECTED PART"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera" />
+</androidx.constraintlayout.widget.ConstraintLayout>

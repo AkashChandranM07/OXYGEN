@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/person"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/person"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="305dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="monospace"
+        android:text="Click to add Profile picture"
+        android:textColor="@color/agdarkgreen"
+        android:textSize="25dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/yname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp">
+
+        <EditText
+            android:id="@+id/yn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:inputType="text"
+            android:maxLength="40"
+            android:layout_marginTop="20dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/emid"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp">
+
+        <EditText
+            android:id="@+id/em"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email-Id"
+            android:inputType="text"
+            android:maxLength="40"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/mnum"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp">
+
+        <EditText
+            android:id="@+id/mn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_marginTop="20dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Crimson"
+        android:text="UPDATE"
+        android:textColor="@color/black"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:backgroundTint="@color/aglightblue"
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNOUT"
+        android:textColor="@color/black"
+        hwads:cornerRadius="20dp" />
+
+    <!--    </RelativeLayout>-->
+
+
+</LinearLayout>

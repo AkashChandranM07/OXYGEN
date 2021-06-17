@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xsi="http://schemas.android.com/apk/distribution"
+    package="com.ac07.oxygen"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <queries>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice" />
+        </intent>
+    </queries>
+    <!-- WeatherPermissions -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:networkSecurityConfig="@xml/xmlresourcefile"
+        android:name=".AdSampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OXYGEN">
+        <activity android:name=".Rateus"></activity>
+        <activity android:name=".VideoAd" />
+        <activity android:name=".MarketWise" />
+        <activity android:name=".CommodityWise" />
+        <activity android:name=".ui.home.CropFeed" />
+        <activity android:name=".BlackPoint" />
+        <activity android:name=".CmnBunt" />
+        <activity android:name=".leafrust" />
+        <activity android:name=".Wleaf" />
+        <activity android:name=".Wstem" />
+        <activity android:name=".Wroot" />
+        <activity android:name=".Wgrain" />
+        <activity android:name=".Corndisease" />
+        <activity android:name=".Wheatdisease" />
+        <activity android:name=".TimeBarrierActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity android:name=".MapKit" />
+        <activity android:name=".DiagnoseCrop" />
+        <activity android:name=".Corn" />
+        <activity android:name=".Tomato" />
+        <activity android:name=".Potato" />
+        <activity android:name=".CaptureActivity" />
+        <activity android:name=".BarrierActivity" />
+        <activity android:name=".LOCbarrier" />
+        <activity android:name=".LOCmain">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity android:name=".Nativeads" />
+        <activity android:name=".Maize" />
+        <activity android:name=".Cropplan" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signout" />
+        <activity android:name=".FetchWeather" />
+        <activity android:name=".Environment1" />
+        <activity
+            android:name=".Actkit"
+            android:label="OXYGEN" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.OXYGEN.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

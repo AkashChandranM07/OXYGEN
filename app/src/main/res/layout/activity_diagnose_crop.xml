@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/igblue"
+    tools:context=".MainActivity"
+    >
+
+
+    <GridView
+        android:id="@+id/corn"
+        android:layout_width="172dp"
+        android:layout_height="173dp"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/corn">
+
+
+    </GridView>
+
+    <GridView
+        android:id="@+id/maize"
+        android:layout_width="172dp"
+        android:layout_height="173dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/maize">
+
+    </GridView>
+
+    <Button
+        android:id="@+id/m1"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:backgroundTint="@color/igorg"
+        android:text="WHEAT"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/c1"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:backgroundTint="@color/igorg"
+        android:text="MAIZE" />
+
+
+
+
+</GridLayout>
+
+
+
+

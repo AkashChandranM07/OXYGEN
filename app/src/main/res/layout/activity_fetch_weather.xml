@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FetchWeather"
+    android:background="@color/igblue">
+
+<!--    <Button-->
+<!--        android:id="@+id/btnweather"-->
+<!--        android:layout_width="169dp"-->
+<!--        android:layout_height="41dp"-->
+<!--        android:layout_marginTop="672dp"-->
+<!--        android:backgroundTint="@color/aglightblue"-->
+<!--        android:fontFamily="@font/happy_monkey"-->
+<!--        android:text="FETCH WEATHER"-->
+<!--        app:cornerRadius="50dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.933"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:textColor="@color/black"/>-->
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/btnweather"
+        android:layout_width="291dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/allerta"
+        android:text="FETCH WEATHER"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="4000"
+        app:sub_btn_line_color="#00FF7F"
+        app:sub_btn_ripple_color="#00FF7F"
+        app:sub_btn_tick_color="@color/black" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="377dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="536dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="389dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="448dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
+
+    <TextView
+        android:id="@+id/windspeed"
+        android:layout_width="386dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="232dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humidity"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/winddir"
+        android:layout_width="374dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="124dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/windspeed"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="378dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="344dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp" />
+
+    <TextView
+        android:id="@+id/weatherid"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="Click on FETCH WEATHER and Please Wait."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="121dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="@+id/city"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/city" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="125dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/temperature" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="117dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/windspeed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humidity"
+        app:layout_constraintVertical_bias="0.823"
+        app:srcCompat="@drawable/humidity" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="103dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="@+id/windspeed"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/windspeed" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="99dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/weatherid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/winddir" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/tvweather"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:text="TextView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnweather" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

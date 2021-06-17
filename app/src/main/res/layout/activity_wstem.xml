@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wstem"
+    android:background="@drawable/envbgoxy">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="409dp"
+        android:layout_height="80dp"
+        android:text="APHID"
+        android:gravity="center"
+        android:textColor="@color/agdarkgreen"
+        android:textSize="19dp"
+        android:fontFamily="@font/allerta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="209dp"
+        android:layout_height="187dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/aphid" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="375dp"
+        android:layout_height="418dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="5dp"
+        android:text="How it affects?
+It's a sucking insect, it appears same in
+all stages of its growth (emergence to
+harvest). They are green in colour. Both
+nymph and adult feed by inserting their
+needle-like mouthparts into the plant
+and suck plant juices. Cold weather and
+excessive use of fertilizer favours this
+insect.
+How to identify?
+A group of soft-bodied insects sucks sap
+on young tissues on plants.
+aphids are soft-bodied, lime-green colored
+insect with a darker green stripe on its
+back. Yellowing and death of leaves.
+Sooty mould (black colour) development.
+The green bug is a soft-bodied,
+lime-green coloured insect with a darker
+green stripe on its back. The outer half of
+its antennae and legs are black."
+        android:textSize="15dp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="145dp"
+        android:layout_height="118dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="104dp"
+        android:src="@drawable/ic_menu_camera"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="137dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:text="CLICK ON CAMERA ICON COMPARE THE AFFECTED PART"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera" />
+</androidx.constraintlayout.widget.ConstraintLayout>

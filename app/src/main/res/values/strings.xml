@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Oxygen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="native_ad">Native Ad</string>
+
+    <string name="menu_home">OXYGEN</string>
+    <string name="menu_gallery">Diagnose Crop</string>
+
+    <string name="wheat"><b> <u> Introduction</u></b>
+
+        (50-41 days before sowing)
+
+Wheat is the second largest food grain
+crop in India after Rice. Punjab, Haryana,
+MP and UP are the major wheat producing
+states in India. The best sowing months
+for wheat crop in India are from November
+to December.Soil with clay loam or loam
+texture, good structure and moderate
+water holding capacity are ideal for
+cultivation.
+Some recommended varieties of wheat are
+as follows: For Irrigated Areas: HD 1605
+(Pusa Ujala), HD 3086 (Pusa gautami)
+        8759 (Puja Tejas), Ajeet 102.
+ </string>
+    \n
+
+    <string name="link1">Learn more about WHEAT at  <a href="https://en.wikipedia.org/wiki/Wheat">OXYGEN.com</a></string>
+    <string name="reg">Dont Have Huawei ID?  <a href="https://id1.cloud.huawei.com">Register.</a></string>
+
+
+    <string name="tomato"><b> <u> Introduction</u></b>
+
+        Crop planning 
+(40-30 days before nursery sowing)
+
+India is the second largest producer
+of tomato in the world, where Madhya
+Pradesh is the largest producing state
+followed by Andhra Pradesh, Karnataka,
+Telangana.
+
+It can be grown in any season, Optimal
+temperature range: 180C to 280C.
+Preferred soil types: light sandy to heavy
+clay, well-drained, sandy or red loam soils
+rich in organic matter with a pH range of
+6.0 to 7.0. </string>
+
+
+    <string name="link3">Learn more about TOMATO at  <a href="https://en.wikipedia.org/wiki/Tomato">OXYGEN.com</a></string>
+
+
+    <string name="corn"><b> <u> Introduction</u></b>
+
+        Introduction
+(60-46 days before sowing)
+
+Maize is third most important food grain
+crop after wheat and rice in India. Maize is
+used for various purposes including food
+grain, poultry feed, animal feed, and starch
+and ethanol manufacturing. Maize crop is
+taken in both Kharif and Rabi in South India
+and Bihar and only during Kharif season in
+most of the North Indian states.
+Maize crop can be grown in soils ranging
+from loamy sand to clay loam. Maize is
+a short-duration crop and it conveniently
+fits into a wide range of crop rotations.
+Continuous growing of maize crop in same
+area causes build-up of soil pathogens.
+It increases risk of diseases like smut,is
+India
+stalk rot, nematodes, and leaf blight.
+Hence, crop rotation should be done
+regularly. </string>
+    \n
+
+    <string name="link4">Learn more about CORN at  <a href="https://en.wikipedia.org/wiki/Maize">OXYGEN.com</a></string>
+
+    <string name="potato"><b> <u> Introduction</u></b> Introduction
+Potato is one of the important staple food
+crops in India. The potato is the third most
+important food crop in the world after rice
+and wheat for human consumption. Its
+grown in more than 125 countries and
+consumed almost daily by more than a
+billion people. Potatoes are used in the
+production of starch, glucose, dextrin and
+alcohol. They can be converted into dried
+products and also consume fresh as daily
+vegetables. The required soil is porous and
+well-drained. Potatoes grow well in loamy
+and sandy loam soils, not in sandy, saline
+and water-logged soils. </string>
+
+
+    <string name="link2">Learn more about POTATO at  <a href="https://en.wikipedia.org/wiki/Potato">OXYGEN.com</a></string>
+    <!-- native ad -->
+
+
+    <string name="ad_id_native">testu7m3hc4gvm</string>
+    <string name="ad_id_native_small">testb65czjivt9</string>
+    <string name="ad_id_native_video">testy63txaom86</string>
+    <string name="ad_flag">AD</string>
+    <string name="display_form">Display form:</string>
+    <string name="large">LARGE AD</string>
+    <string name="small">SMALL AD</string>
+    <string name="video">VIDEO AD</string>
+    <string name="status_ad_loading">AD is being Loaded.</string>
+    <string name="status_load_ad_success">AD Loaded Successfully.</string>
+    <string name="status_load_ad_fail">Failed to Load AD Error code: </string>
+    <string name="status_play_start">Video playback state: starting to be played.</string>
+    <string name="status_playing">Being Played.</string>
+    <string name="status_play_end">Completed Playing</string>
+    <string name="ad_is_closed">AD closed.</string>
+
+
+    <!-- Privacy -->
+    <string name="protocol_title">Privacy Example of HUAWEI X</string>
+    <string name="protocol_content_text">
+        1.Privacy description\n
+        The HuaweiAdsSdk_Demo is software providing a code demo for the HUAWEI Ads SDK. Connecting to the network, the software collects and processes information to identify devices, providing customized services or ads. If you do not agree to collect the preceding information or do not agree to call related permissions or functions of your mobile phones, the software cannot run properly. You can stop data collection and uploading by uninstalling or exiting this software.\n\n
+        2.Demo description\n
+        This demo is for reference only. Modify the content based on the user protocol specifications. \n\n
+        3.Advertising and marketing\n
+        We will create a user group based on your personal information, collect your device information, usage information, and ad interaction information in this app, and display more relevant personalized ads and other promotion content. In this process, we will strictly protect your privacy. You can learn more about how we collect and use your personal information in personalized ads based on Ads and Privacy.
+        If you want to restrict personalized ads, you can tap here to open the ad setting page and enable the function of restricting personalized ads. After the function is enabled, you will still receive equivalent number of ads. However, the ad relevance will be reduced.
+        </string>
+    <integer name="privacy_start">1033</integer>
+    <integer name="privacy_end">1048</integer>
+    <integer name="personalized_start">1104</integer>
+    <integer name="personalized_end">1108</integer>
+    <string name="no_tip">Don\'t remind me again</string>
+    <string name="cancel">Cancel</string>
+    <string name="setting">Setting</string>
+    <string name="ok">Agree</string>
+    <string name="no">Cancel</string>
+    <string name="alert_title">Reminder</string>
+    <string name="alert_content">HMS Core of this version does not have the related function. Please install HMS Core (APK) of the latest version in AppGallery.</string>
+    <string name="alert_confirm">OK</string>
+
+    <!-- Consent -->
+    <string name="consent_title"> OXYGEN DEVS.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="dialog_close">Close</string>
+    <string name="action_remove_ads">Do Not Load Ads</string>
+    <string name="consent_init_text">The Ads in HUAWEI X is provided in collaboration with our advertising partners. To provide this service, we need to share certain information about you with these partners, including your city-level location as well as your usage records for the news service.\n\n
+    For more information about our partners and how your data is processed, please touch here.\n\n
+    By touching AGREE, you indicate that you agree to share the above personal information with our partners so that they can provide you with personalized advertisements on behalf of their customers, based on interests and preferences identified or predicted through analysis of your personal information.
+                                       \n\nYou can withdraw your consent at any time by going to [app settings].
+                                       \n\nIf you touch SKIP, your data will not be shared with our partners and you will not receive personalized ads.</string>
+    <integer name="init_here_start">347</integer>
+    <integer name="init_here_end">351</integer>
+    <string name="consent_more_info_text">The Ads in HUAWEI X is provided in collaboration with our partners. You can find a full list of our partners for each country/region here.\n\n
+    In order to provide you with personalized advertisements, we need to share the following information with our partners:\n\n
+    •	User information, including advertising ID, city of residence, country, and language.\n\n
+    •	Device information, including device name and model, operating system version, screen size, and network type.\n\n
+    •	Service usage information, including news ID and records of views, clicks, dislikes, shares, and comments for news content and advertisements.\n\n
+    With your consent, the above information will be shared with our partners so that they can provide you with personalized advertisements on behalf of their customers, based on interests and preferences identified or predicted through analysis of your personal information.\n\n
+    You can withdraw your consent at any time by going to app settings.\n\n
+    Without your consent, no data will be shared with our partners and you will not receive personalized ads.</string>
+    <integer name="more_info_here_start">133</integer>
+    <integer name="more_info_here_end">137</integer>
+    <string name="mediation_partners"> You can find a full list of our partners for each country/region here:\n\n</string>
+    <string name="consent_back">Back</string>
+    <string name="consent_yes">Agree</string>
+    <string name="consent_skip">Skip</string>
+    <string name="consent_change_setting">You can change this setting anytime in the app.</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="Consent_text">This is a Consent Example</string>
+
+    <string name="load_personalized_text">Load Personalized Ads.</string>
+    <string name="load_non_personalized_text">Load Non-Personalized Ads.</string>
+    <string name="no_ads_text">Do Not Load Ads.</string>
+
+    <!--Location Awareness-->
+
+    <string name="sample_awareness_description">OXYGEN LOCATION AWARENESS</string>
+    <string name="clear_log">Clear Messages </string>
+    <string name="awareness_capture_sample">Know your Location</string>
+    <string name="awareness_barrier_sample">OXYGEN LOCATION BARRIER (Beta) </string>
+    <string name="awareness_getLocation">Get your Address</string>
+    <string name="awareness_deleteBarrier">Delete Set Barrier</string>
+    <string name="awareness_locationBarrier">Set Location Barrier</string>
+    <string name="awareness_locationBarrier_enter">Add ENTRY LocationBarrier</string>
+    <string name="awareness_locationBarrier_stay">Add STAY LocationBarrier</string>
+    <string name="awareness_locationBarrier_exit">Add EXIT LocationBarrier</string>
+
+    <string name="awareness_timeBarrier">Time Barrier Sample</string>
+    <string name="awareness_timeBarrier_inSunriseOrSunsetPeriod">Sunrise or Sunset?</string>
+    <string name="awareness_timeBarrier_duringPeriodOfDay">When to irrigate field? </string>
+    <string name="awareness_timeBarrier_duringTimePeriod">When did i lastly irrigate?</string>
+    <string name="awareness_timeBarrier_duringPeriodOfWeek"> Is it market time??</string>
+    <string name="awareness_timeBarrier_inTimeCategory">What should i do now?</string>
+</resources>

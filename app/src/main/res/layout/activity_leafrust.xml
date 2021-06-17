@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/envbgoxy"
+    tools:context=".leafrust">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="245dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="655dp"
+        android:text="LEAF RUST"
+        android:textColor="@color/igblue"
+        android:textSize="30dp"
+        android:fontFamily="@font/allerta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="349dp"
+        android:layout_height="435dp"
+        android:text="How it affects?
+It's a fungal infection causes yield loss of
+up to 30%. Spreads through the air from
+alternative hosts on hills. Temperature
+between 20-250C with free moisture in
+the field causes a severe infestation.
+How to identify?
+Also Known as Brown or Orange Rust.
+Rusty (Brown or Orange) and circular or
+slightly elongated small to medium shape
+pimples appear on the upper surface of
+leaves and sheath
+Pimples appear randomly on leaves.
+These are smaller than other rust
+pustules, and they won't coalesce."
+        android:lineSpacingExtra="15dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.159" />
+</androidx.constraintlayout.widget.ConstraintLayout>

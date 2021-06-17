@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/igblue"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/Black"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@color/White"/>
+
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="What is Farmer's Friend..?"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="321dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="An assistant named Oxygen that provides assistance to farmer like friendly reminders and suggestions that helps concentrate on farming.. It works based on the time of your Physical device."
+        android:textColor="@color/White"
+        android:textSize="19dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="335dp"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/oxypalogo" />
+
+
+</LinearLayout>

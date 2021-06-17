@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlackPoint"
+    android:background="@drawable/envbgoxy">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="407dp"
+        android:layout_height="91dp"
+        android:text="BLACK POINT"
+        android:textColor="@color/black"
+android:gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="@font/allerta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="392dp"
+        android:layout_height="511dp"
+        android:layout_marginStart="8dp"
+        android:text="How it affects?
+It's a fungal disease, occurs throughout
+the country. The warm and humid weather
+at grain filling or near maturity favours
+this disease; affects the crop by reducing
+the quality of grain.
+How to identify?
+Blackening of the embryonic region of
+the seed. Discoloured seeds are
+shrivelled."
+        android:lineSpacingExtra="15dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.CameraFragment"
+    android:background="@drawable/noda">
+
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="252dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="@color/aglightblue"
+        android:text="Diagnose Crop"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        android:fontFamily="@font/happy_monkey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="343dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/trade_winds"
+        android:text="CROP DISEASE ANALYZER (BETA)"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/cam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+</androidx.constraintlayout.widget.ConstraintLayout>

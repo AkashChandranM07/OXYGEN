@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/envbgoxy"
+    tools:context=".ui.slideshow.AboutFragment">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="352dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="@color/aglightblue"
+        android:text="Click to LOGOUT"
+        android:textColor="@color/black"
+
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="421dp"
+        android:layout_height="283dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="195dp"
+        android:src="@drawable/appabout1"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="237dp"
+        android:layout_height="155dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="123dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="@color/Red"
+        android:text="RATE US"
+        android:textSize="15dp"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/rateus"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/rateus"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

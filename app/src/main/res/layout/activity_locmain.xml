@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LOCmain"
+    android:background="@color/igblue"
+    >
+
+    <TextView
+        android:layout_width="421dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/sample_awareness_description"
+        android:textColor="@color/white"
+        android:fontFamily="@font/trade_winds"
+        android:textSize="21dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="348dp">
+
+        <com.ac07.oxygen.LogView
+            android:id="@+id/logView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/igblue"
+            android:textColor="@color/igblue" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/awareness_capture"
+        android:layout_width="300dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/aglightblue"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/awareness_capture_sample"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="50dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/tb"
+        android:layout_width="309dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/aglightblue"
+        android:fontFamily="@font/happy_monkey"
+        android:text="Farmer's Friend"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="50dp"
+        android:textAllCaps="false"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/awareness_barrier"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:backgroundTint="@color/aglightblue"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/happy_monkey"-->
+<!--        android:text="@string/awareness_barrier_sample"-->
+<!--        android:textSize="17dp"-->
+<!--        app:cornerRadius="50dp"-->
+<!--        android:textAllCaps="false"/>-->
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_title_margin"
+    android:paddingTop="@dimen/activity_title_margin"
+    android:paddingRight="@dimen/activity_title_margin"
+    tools:context=".TimeBarrierActivity"
+    android:background="@color/igblue">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="Farmer Friendly Time Barrier"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/add_timeBarrier_inSunriseOrSunsetPeriod"
+        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/aglightblue"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/awareness_timeBarrier_inSunriseOrSunsetPeriod"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/add_timeBarrier_duringPeriodOfDay"
+        android:layout_height="50dp"
+        android:text="@string/awareness_timeBarrier_duringPeriodOfDay"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/aglightblue"
+        app:cornerRadius="50dp"
+        android:layout_width="300dp"
+        android:layout_marginStart="80dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/add_timeBarrier_duringTimePeriod"-->
+<!--        style="@style/ButtonStyle"-->
+<!--        android:text="@string/awareness_timeBarrier_duringTimePeriod"-->
+<!--        />-->
+    <Button
+        android:id="@+id/add_timeBarrier_duringPeriodOfWeek"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/aglightblue"
+        android:text="@string/awareness_timeBarrier_duringPeriodOfWeek"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        />
+    <Button
+        android:id="@+id/add_timeBarrier_inTimeCategory"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/aglightblue"
+        android:text="@string/awareness_timeBarrier_inTimeCategory"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        android:layout_width="300dp"
+        android:layout_marginStart="80dp"/>
+    <Button
+        android:id="@+id/clear_log"
+        android:text="@string/clear_log"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/Gold"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        android:layout_width="300dp"
+        android:layout_marginStart="50dp"/>
+
+    <Button
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:onClick="ShowPopup"
+        android:text="Need Help..?"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:ignore="OnClick" />
+
+    <ScrollView
+        android:id="@+id/log_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.ac07.oxygen.LogView
+            android:id="@+id/logView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingClass"
+            android:background="@color/igblue"
+            android:textColor="@color/yellow"/>
+    </ScrollView>
+</LinearLayout>

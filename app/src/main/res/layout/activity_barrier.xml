@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/igblue"
+    tools:context=".BarrierActivity">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/trade_winds"
+        android:text="@string/awareness_barrier_sample"
+        android:textColor="@color/White"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/location_barrier"
+        android:layout_width="214dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/Gold"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/awareness_locationBarrier"
+        app:cornerRadius="50dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

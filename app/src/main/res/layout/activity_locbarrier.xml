@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="@dimen/activity_title_margin"
+android:paddingTop="@dimen/activity_title_margin"
+android:paddingRight="@dimen/activity_title_margin"
+tools:context=".LOCbarrier"
+    android:background="@color/igblue">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="28dp"
+    android:textColor="@color/White"
+    android:fontFamily="@font/trade_winds"
+    android:text="@string/awareness_locationBarrier"
+    />
+
+    <ScrollView
+        android:id="@+id/log_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="330dp">
+
+        <com.ac07.oxygen.LogView
+            android:id="@+id/logView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/yellow"
+            tools:ignore="MissingClass" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_locationBarrier_enter"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/aglightblue"
+        android:textColor="@color/black"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/awareness_locationBarrier_enter"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/add_locationBarrier_stay"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/aglightblue"
+        android:text="@string/awareness_locationBarrier_stay"
+        android:textColor="@color/black"
+        android:fontFamily="@font/happy_monkey"
+        app:cornerRadius="40dp" />
+
+    <Button
+        android:id="@+id/add_locationBarrier_exit"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/aglightblue"
+        android:textColor="@color/black"
+        android:text="@string/awareness_locationBarrier_exit"
+        android:fontFamily="@font/happy_monkey"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/delete_barrier"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/aglightblue"
+        android:text="@string/awareness_deleteBarrier"
+        android:fontFamily="@font/happy_monkey"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/clear_log"
+        android:layout_width="300dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="@color/Gold"
+        android:text="@string/clear_log"
+        app:cornerRadius="50dp" />
+
+</LinearLayout>
